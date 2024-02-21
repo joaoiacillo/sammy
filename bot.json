@@ -1,0 +1,20 @@
+{
+    "Bot": {
+        "Token": "<file:.token>",
+        "ReplyForBots": false
+    },
+    "Errors": {
+        "NoSuchCommand": "Can't understand the command **{cmd}** you mentioned"
+    },
+    "Commands": {
+        "ping": {
+            "Reply": ":ping_pong: Pong!"
+        },
+        "hello": {
+            "Reply": "Hey there {author}! How's it shaking?"
+        }
+    },
+    "Mappings": {
+        "hello": ["hi", "hey", "howdy"]
+    }
+}
